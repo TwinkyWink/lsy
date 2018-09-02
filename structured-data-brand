@@ -1,0 +1,22 @@
+    <script type="application/ld+json">
+      {
+        "@context":"https://schema.org",
+        "@type":"Corporation",
+        "brand":"LSY林三益專業彩妝刷具",
+        "url":"https://www.lsy031.com",
+        "sameAs": [
+          "https://page.line.me/lsy031",
+          "https://www.facebook.com/lamsamyick.tw/",
+          "https://www.instagram.com/lsy_tw/"
+        ],
+        "logo":"https://fs.lsy031.com/upload/website_info/pic_logo_top_menu_1.png",
+        "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+886225566433#28",
+            "contactType": "customer service",
+            "areaServed": "TW"
+          }
+        ]
+      }
+    </script>
