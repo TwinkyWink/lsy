@@ -1,1 +1,84 @@
-
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Store",
+  "priceRange": "$$",
+  "image": [
+    "https://example.com/photos/1x1/photo.jpg" //請放上LSY林三益旗艦店的照片圖檔
+   ],
+  "@id": "https://www.lsy031.com/",
+  "name": "LSY林三益旗艦店",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "重慶北路二段58號",
+    "addressLocality": "大同區",
+    "addressRegion": "台北市",
+    "postalCode": "103",
+    "addressCountry": "TW"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.293058, //請放上LSY林三益旗艦店的緯度
+    "longitude": -121.988331 //請放上LSY林三益旗艦店的經度
+  },
+  "url": "https://www.lsy031.com/physical_store.php?list_mode=&c2=133&c3=136&key_physical_store_type=a", 
+  //未來如果有旗艦店的專門介紹頁面，也請記得改成專門頁的URL
+  "telephone": "+886225566433#28",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+     //這邊請確認分店的營業日
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+    ],
+  "department": [
+    {
+      "@type": "Store",
+      "image": ["https://example.com/photos/1x1/photo.jpg"
+   		], //請放上LSY林三益宜蘭傳藝中心門市照片
+      "name": "LSY林三益旗艦店宜蘭傳藝中心門市",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "五濱路二段201號",
+        "addressLocality": "五結鄉",
+        "addressRegion": "宜蘭縣",
+        "postalCode": "268",
+        "addressCountry": "TW"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.293058, //請放上LSY林三益宜蘭傳藝中心的緯度
+        "longitude": -121.988331 //請放上LSY林三益宜蘭傳藝中心的經度
+    },
+      "url": "https://www.lsy031.com/physical_store.php?list_mode=&c2=332&key_physical_store_type=c", 
+      //未來如果有宜蘭傳藝中心店的專門介紹頁面，也請記得改成專門頁的URL
+      "telephone": "+88639500409",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],//這邊請確認宜蘭傳藝中心分店的營業日
+          "opens": "10:00",
+          "closes": "18:00"
+        }//這邊請確認宜蘭傳藝中心分店的營業時間
+      ]
+     }
+  ]
+}
+</script>
